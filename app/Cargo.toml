@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embassy-stm32 = { version = "0.1.0", git = "https://github.com/embassy-rs/embassy.git", features = ["stm32f439zi"] }
+panic-probe = "0.3.0"
